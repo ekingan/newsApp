@@ -4,20 +4,15 @@ var Router = ReactRouter.Router;
 var Route = ReactRouter.Route;
 
 
-var CreateHistory = 	require('history/lib/createHashHistory');
-var History = new CreateHistory({
-	queryKey: false
-});
-
 var Base = require('./components/Base.jsx');
-var Page1 = require('./components/Page1.jsx');
-var Page2 = require('./components/Page2.jsx');
+var News = require('./components/News.jsx');
+var Photos = require('./components/Photos.jsx');
 
 var Routes = (
-	<Router history={History}>
+	<Router>
 		<Route path="/" component={Base} >
-			<Route path="/page1" component={Page1} />
-			<Route path="/page2" component={Page2} />
+			<Route path="/news" component={News} />
+			<Route path="/photos" component={Photos} />
 		</Route>
 	</Router>
 
