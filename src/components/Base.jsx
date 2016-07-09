@@ -7,7 +7,7 @@ var Base = React.createClass({
 		var divStyle = {
 			marginTop: 10,
 			color: 'white',
-			backgroundColor: '#004080',
+			// backgroundColor: '#004080',
 			padding: 20,
 			textAlign: 'center'
 		};
@@ -25,7 +25,7 @@ var Base = React.createClass({
 
 		return (
 			<div style={divStyle} >
-				<div className="row">
+				<div className="row" height="200">
 					<div className="col-md-3 col-md-offset-1">
 						<h1> Country News </h1>
 							<h4>Top Stories in my Country</h4>

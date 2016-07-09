@@ -25145,7 +25145,7 @@ var Base = React.createClass({
 		var divStyle = {
 			marginTop: 10,
 			color: 'white',
-			backgroundColor: '#004080',
+			// backgroundColor: '#004080',
 			padding: 20,
 			textAlign: 'center'
 		};
@@ -25165,7 +25165,7 @@ var Base = React.createClass({
 			{ style: divStyle },
 			React.createElement(
 				'div',
-				{ className: 'row' },
+				{ className: 'row', height: '200' },
 				React.createElement(
 					'div',
 					{ className: 'col-md-3 col-md-offset-1' },
@@ -25275,7 +25275,7 @@ class Photos extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-			photos: ['../assets/IMG_0923.JPG', '../assets/IMG_0925.JPG', '../assets/IMG_0950.JPG', '../assets/IMG_0964.JPG', '../assets/IMG_1042.JPG', 'http://i.imgur.com/nIj9GEE.jpg', 'http://i.imgur.com/dqRILeB.png', 'http://i.imgur.com/cSqe4s3.jpg']
+			photos: ['./assets/IMG_3253.JPG', './assets/IMG_0925.JPG', './assets/IMG_0950.JPG', './assets/IMG_3246.JPG', './assets/IMG_2559.jpg', './assets/IMG_2159.jpg', './assets/IMG_1251.JPG', './assets/IMG_0968.JPG']
 		};
 	}
 
